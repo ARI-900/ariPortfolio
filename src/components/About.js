@@ -39,7 +39,7 @@ const About = () => {
               ))}
             </div>
             
-            <a href="https://docs.google.com/document/d/e/2PACX-1vRhT8Yn5aOS6QZ7AsfBAWmsNjA5DbqxP9Cf-XgelapPQRBI0HOQQcgZ35E4Zu9l_J1STpTPKSMbDFxX/pub" target="_blank" className="btn btn-primary">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vQ0VtlgSYKI9DXk0uXu4wDyylGNc3RZbYNYP8Wv-EakzriKZflAUi_Tl_UqxQs_Zm13LOTuZL7IIQVU/pub" target="_blank" className="btn btn-primary">
               <FaDownload />
               Download Resume
             </a>

@@ -2,7 +2,21 @@
 
 A modern, responsive portfolio website built with React.js showcasing my skills as a Full Stack Developer, AI/ML Engineer, and Android Developer.
 
-![Portfolio Preview](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop)
+**🌐 Live Demo: [https://ariportfolioo.netlify.app/](https://ariportfolioo.netlify.app/)**
+
+## 📸 Portfolio Screenshots
+
+### 🏠 Hero Section
+![Hero Section](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&crop=center)
+
+### 💼 Projects Section
+![Projects Section](https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=600&fit=crop&crop=center)
+
+### 🎯 Skills Section
+![Skills Section](https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=800&h=600&fit=crop&crop=center)
+
+### 📱 Mobile Responsive Design
+![Mobile View](https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop&crop=center)
 
 ## ✨ Features
 
@@ -160,7 +174,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Portfolio**: [Your Portfolio URL]
+- **Portfolio**: [https://ariportfolioo.netlify.app/](https://ariportfolioo.netlify.app/)
 - **LinkedIn**: [Your LinkedIn]
 - **GitHub**: [Your GitHub]
 - **Email**: [Your Email]

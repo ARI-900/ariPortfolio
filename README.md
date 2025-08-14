@@ -7,16 +7,20 @@ A modern, responsive portfolio website built with React.js showcasing my skills 
 ## 📸 Portfolio Screenshots
 
 ### 🏠 Hero Section
-![Hero Section](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&crop=center)
+<img width="1906" height="934" alt="Screenshot 2025-08-14 141904" src="https://github.com/user-attachments/assets/fc59e5f5-f49d-4542-9f0a-2aad232d6d8f" />
+
 
 ### 💼 Projects Section
-![Projects Section](https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=600&fit=crop&crop=center)
+<img width="1893" height="938" alt="Screenshot 2025-08-14 142040" src="https://github.com/user-attachments/assets/8ad94757-7760-4fcf-ae6c-8748f9a36084" />
 
-### 🎯 Skills Section
-![Skills Section](https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=800&h=600&fit=crop&crop=center)
+
+### 🎯 Contact Section
+<img width="1769" height="944" alt="Screenshot 2025-08-14 142126" src="https://github.com/user-attachments/assets/f6ab9312-e520-4817-92a5-9a190c0aff73" />
+
 
 ### 📱 Mobile Responsive Design
-![Mobile View](https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop&crop=center)
+<img width="603" height="895" alt="Screenshot 2025-08-14 142504" src="https://github.com/user-attachments/assets/9cd19ae4-cc7e-4970-9cf2-cc9d9a6e1186" />
+
 
 ## ✨ Features
 

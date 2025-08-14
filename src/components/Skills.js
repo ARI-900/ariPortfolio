@@ -7,19 +7,19 @@ const Skills = () => {
     {
       title: 'Frontend Development',
       icon: FaCode,
-      skills: ['React.js', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Vue.js'],
+      skills: ['React.js', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Django', 'GSAP', ],
       color: '#00d4ff'
     },
     {
       title: 'Backend Development',
       icon: FaServer,
-      skills: ['Node.js', 'Python', 'Express.js', 'MongoDB', 'PostgreSQL'],
+      skills: ['Node.js', 'Python', 'Express.js', 'MongoDB', 'MySQL'],
       color: '#00ff88'
     },
     {
       title: 'Tools & Others',
       icon: FaCog,
-      skills: ['Git & GitHub', 'Docker', 'AWS', 'Figma', 'GraphQL'],
+      skills: ['Git & GitHub', 'Firebase', 'DSA', 'AI/ML', 'GenAI'],
       color: '#a855f7'
     }
   ];

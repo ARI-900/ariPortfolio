@@ -18,9 +18,10 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
+    // This line is no longer needed as Netlify will handle the form submission.
+    // e.preventDefault();
+
+    // After the form has submitted, this will show a confirmation and clear the fields.
     alert('Thank you for your message! I will get back to you soon.');
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
@@ -64,10 +65,15 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-form-section">
             <h3 className="contact-form-title">Send Message</h3>
-            <form onSubmit={handleSubmit} className="contact-form" data-netlify="true" name="contact">
-
+            <form 
+              onSubmit={handleSubmit} 
+              className="contact-form" 
+              name="contact" 
+              data-netlify="true"
+            >
+              {/* This hidden field is crucial for Netlify's form detection. */}
               <input type="hidden" name="form-name" value="contact" />
-
+              
               <div className="form-group">
                 <label htmlFor="name">Full Name</label>
                 <input
@@ -171,4 +177,4 @@ const Contact = () => {
   );
 };
 
-export default Contact; 
+export default Contact;

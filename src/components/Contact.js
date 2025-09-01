@@ -64,7 +64,10 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-form-section">
             <h3 className="contact-form-title">Send Message</h3>
-            <form onSubmit={handleSubmit} className="contact-form">
+            <form onSubmit={handleSubmit} className="contact-form" data-netlify="true" name="contact">
+
+              <input type="hidden" name="form-name" value="contact" />
+
               <div className="form-group">
                 <label htmlFor="name">Full Name</label>
                 <input

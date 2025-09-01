@@ -9,6 +9,9 @@ const Contact = () => {
     subject: '',
     message: ''
   });
+  
+  // New state for form status messages
+  const [status, setStatus] = useState('');
 
   const handleChange = (e) => {
     setFormData({
@@ -18,12 +21,27 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    // This line is no longer needed as Netlify will handle the form submission.
-    // e.preventDefault();
+    e.preventDefault();
+    setStatus('Submitting...');
 
-    // After the form has submitted, this will show a confirmation and clear the fields.
-    alert('Thank you for your message! I will get back to you soon.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
+    // Use a FormData object to get all form data
+    const myForm = e.target;
+    const formData = new FormData(myForm);
+    
+    // Use the fetch API to submit the form to Netlify
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => {
+        setStatus('Thank you! Your message has been sent.');
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      })
+      .catch((error) => {
+        console.error('Submission error:', error);
+        setStatus('Failed to send message. Please try again.');
+      });
   };
 
   const contactInfo = [
@@ -130,6 +148,8 @@ const Contact = () => {
                 <FaPaperPlane />
                 Send Message
               </button>
+              
+              {status && <div className="status-message">{status}</div>}
             </form>
           </div>
           
